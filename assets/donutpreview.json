@@ -1,0 +1,78 @@
+// Notes:
+// "innerSize": "60%", defines the inner radius/hole size of donut chart
+{
+  legend: {
+    enabled: false
+  },
+  plotOptions: {
+    series: {
+      animation: {
+        duration: 3000
+      }
+    },
+    pie: {
+      size: 100,
+      "dataLabels": false
+    }
+  },
+  title: {
+    text: ''
+  },
+  "series": [{
+        "innerSize": "60%",
+        "name": "Computer Science",
+        "type": "pie",
+        "showInLegend": false,
+        "data": [
+          {
+            "y": 37.5,
+            "z": "37.500",
+            "name": "Software",
+            "label": "37.50"
+          },
+          {
+            "y": 45.0,
+            "z": "45",
+            "name": "Hardware",
+            "label": "45.00"
+          },
+          {
+            "y": 50.0,
+            "z": "50",
+            "name": "Networking",
+            "label": "50.00"
+          },
+          {
+            "y": 47.5,
+            "z": "47.500",
+            "name": "Cyber Security",
+            "label": "47.50"
+          },
+          {
+            "y": 52.5,
+            "z": "52.500",
+            "name": "Robotics",
+            "label": "52.50"
+          },
+          {
+            "y": 55.0,
+            "z": "55",
+            "name": "Cryptography",
+            "label": "55.00"
+          },
+          {
+            "y": 150.0,
+            "z": "150",
+            "name": "Artificial intelligence",
+            "label": "150.00"
+          },
+          {
+            "y": 105.0,
+            "z": "105",
+            "name": "Research & Development",
+            "label": "105.00"
+          }
+        ]
+
+  }]
+}

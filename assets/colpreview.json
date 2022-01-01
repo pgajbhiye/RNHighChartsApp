@@ -1,0 +1,36 @@
+{
+  title: {
+    text: ''
+  },
+  yAxis: {
+    title: {
+      text: 'Popularity Index',
+    }
+  },
+  "series" : [
+    {
+      "data": [
+        {
+          "x": 0,
+          "y": 1.0,
+          "name": "Netflix",
+          "label": "Netflix"
+        },
+        {
+          "x": 1,
+          "y": 2.0,
+          "name": "Amazon Prime",
+          "label": "Amazon Prime"
+        },
+        {
+          "x": 2,
+          "y": 1.0,
+          "name": "Hotstar",
+          "label": "Hotstar"
+        }
+      ],
+      "name": "Streaming Services",
+      "type": "column"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  chart: {
+    type: 'funnel'
+  },
+  title: {
+    text: 'test'
+  },
+  plotOptions: {
+   "funnel": {
+    "size": 100
+   },
+    series: {
+      dataLabels: {
+        enabled: true,
+        format: '<b>{point.name}</b> ({point.y:,.0f})',
+        softConnector: true
+      },
+      center: [
+        '35%',
+        '45%'
+      ],
+      neckWidth: '20%',
+      neckHeight: '15%',
+      width: '50%'
+    }
+  },
+  legend: {
+    enabled: false
+  },
+  series: [
+    {
+      name: 'Sales Pipeline',
+      colors: [
+        '#F7A826',
+        '#9DC62D',
+        '#B7A500',
+        '#06C1FF',
+        '#CFA1E2',
+        '#F29C83',
+      ],
+      data: [
+        [
+          'Prospecting',
+          9654
+        ],
+        [
+          'Discovery',
+          4064
+        ],
+        [
+          'Presentation',
+          1987
+        ],
+        [
+          'Quotation',
+          976
+        ],
+        [
+          'Negotiation',
+          846
+        ]
+      ]
+    }
+  ]
+}

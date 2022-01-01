@@ -1,0 +1,32 @@
+{
+  chart: {
+    type: 'timeline',
+    "height": 180
+  },
+  xAxis: {
+    visible: false
+  },
+  yAxis: {
+    visible: false
+  },
+  title: {
+    text: 'Delivery Updates'
+  },
+  series: [{
+    dataLabels: {
+      connectorColor: 'silver',
+      connectorWidth: 2
+    },
+    data: [{
+      name: 'Shipping Soon',
+    }, {
+      name: 'Shipped',
+    }, {
+      name: 'On the way'
+    }, {
+      name: 'Out for delivery',
+    },{
+      name: 'Arriving today'
+    }]
+  }]
+}

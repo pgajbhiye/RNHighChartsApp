@@ -1,0 +1,61 @@
+{
+  "chart": {
+    height: 180,
+    inverted: true
+  },
+  title: {
+    text: 'Top Level Management'
+  },
+  series: [{
+    type: 'organization',
+    name: 'Highsoft',
+    keys: ['from', 'to', 'outgoing'],
+    data: [
+      ['President', 'VP HR'],
+      [ 'VP HR', "HR"],
+      ['President', 'VP Finance'],
+      ['VP Finance', 'Accounts'],
+      ['VP Finance', 'Legal'],
+      ['President', 'VP Marketing']
+    ],
+    levels: [{
+      level: 0,
+      color: '#2E4C6D',
+      dataLabels: {
+        color: 'white',
+        labels: {
+          style: {
+            color: 'red',
+            fontSize:'15'
+          }
+        }
+      }
+    }, {
+      level: 1,
+      color: '#396EB0',
+      dataLabels: {
+        color: 'white'
+      }
+    }, {
+      level: 2,
+      color: '#DADDFC',
+      dataLabels: {
+        color: '#2E4C6D'
+      }
+    }],
+    nodes: [{
+      id: 'President'
+    }, {
+      id: 'VP HR'
+    }, {
+      id: 'CEO'
+    }],
+    colorByPoint: false,
+    color: '#007ad0',
+    borderColor: 'white',
+    nodeWidth: 30
+    }],
+  tooltip: {
+    outside: true
+  }
+}

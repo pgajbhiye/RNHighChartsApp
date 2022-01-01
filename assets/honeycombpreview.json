@@ -1,0 +1,82 @@
+{
+  chart: {
+    type: 'tilemap',
+  },
+  title: {
+    text: 'Startup Metrics'
+  },
+  tilemap: {
+    "dataLabels": false
+  },
+  plotOptions: {
+    series: {
+      dataLabels: {
+        enabled: true,
+        format: '{point.name}',
+        color: 'white',
+        style: {
+          textOutline: false
+        }
+      }
+    }
+  },
+  "xAxis": {
+    visible: false
+  },
+
+  yAxis: {
+    visible: false
+  },
+  legend: {
+    enabled: false
+  },
+
+  series: [{
+    name: '',
+    data: [{
+      name: 'DAU',
+      x: 2,
+      y: 3
+    }, {
+      name: 'ARR',
+      x: 0,
+      y: 1
+    },
+      {
+      name: 'MRR',
+      x: 1,
+      y: 2
+    },
+      {
+        name: 'MAU',
+        x: 1,
+        y: 3
+      },
+      {
+        name: 'TAM',
+        x: 2,
+        y: 1
+      },
+      {
+        name: 'CAC',
+        x: 3,
+        y: 3
+      },
+      {
+        name: 'LTV',
+        x: 5,
+        y: 2
+      },
+      {
+        name: 'ACV',
+        x: 3,
+        y: 2
+      },
+      {
+        name: 'TCV',
+        x: 4,
+        y: 2
+      }
+    ]
+  }]
+}

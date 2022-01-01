@@ -1,0 +1,73 @@
+{
+  title: {
+    text: ''
+  },
+  yAxis: {
+    title: {
+      text: 'Digital Marketing',
+    }
+  },
+  "series" : [
+    {
+      "name" : "Test Emails",
+      "data": [
+        {
+          "x": 0,
+          "y": 0,
+          "name": "test@gmail.com",
+          "value": 1.0
+        },
+        {
+          "x": 1,
+          "y": 1,
+          "name": "test2@gmail.com",
+          "value": 1.0
+        },
+        {
+          "x": 2,
+          "y": 2,
+          "name": "test3@gmail.com",
+          "value": 1.0
+        },
+        {
+          "x": 3,
+          "y": 1,
+          "name": "test4@gmail.com",
+          "value": 0.0,
+        }
+      ],
+      "type": "heatmap"
+    },
+    {
+      "name" : "Email Providers",
+      "data": [
+        {
+          "x": 0,
+          "y": 2,
+          "name": "Gmail",
+          "value": 1.0
+        },
+        {
+          "x": 3,
+          "y": 6,
+          "name": "Outlook",
+          "value": 1.0
+        },
+        {
+          "x": 4,
+          "y": 5,
+          "name": "Yahoo",
+          "value": 1.0
+        },
+        {
+          "x": 6,
+          "y": 8,
+          "name": "AOL",
+          "value": 0.0
+        }
+      ],
+      "type": "heatmap"
+    }
+
+  ]
+}

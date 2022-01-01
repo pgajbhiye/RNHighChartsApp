@@ -1,0 +1,56 @@
+{
+  title: {
+    text: ''
+  },
+  yAxis: {
+    title: {
+      text: 'Educational courses statistics',
+    }
+  },
+  "series" : [
+    {
+      "data": [
+        {
+          "x": 0,
+          "y": 242903,
+          "z": "242,903",
+          "name": "Bachelors",
+          "label": "0"
+        },
+        {
+          "x": 2,
+          "y": 1.3494262E7,
+          "z": "13,494,262",
+          "name": "Masters",
+          "label": "13,494,262"
+        },
+        {
+          "x": 3,
+          "y": 518658.0,
+          "z": "518,658",
+          "name": "Associate",
+          "label": "518,658",
+          "pointId": "b85b93a2-0a44-402e-8465-8d656d79b7f6"
+        },
+        {
+          "x": 4,
+          "y": 242903.0,
+          "z": "242,903",
+          "name": "Diploma",
+          "label": "242,903",
+          "pointId": "516a2c75-4a4f-4d04-8c11-e888221ab7ed"
+        },
+        {
+          "x": 5,
+          "y": 30985.0,
+          "z": "30,985",
+          "name": "Other Degrees",
+          "label": "30,985",
+        },
+      ],
+      "type": "area",
+      "color": "rgba(65, 177, 238, 1)",
+      "name": "Corporate Programs"
+    }
+  ]
+}

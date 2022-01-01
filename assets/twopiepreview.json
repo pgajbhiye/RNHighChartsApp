@@ -1,0 +1,239 @@
+{
+  "series": [{
+    "data": [
+      {
+        "innerSize": "60%",
+        "dataLabels": {
+          "format": "{point.label} ({point.percentage:.2f}%)"
+        },
+        "data": [
+          {
+            "y": 50.0,
+            "z": "100",
+            "pct": "50.00%",
+            "name": "AAR Corp Hardware Abscoa Division",
+            "label": "50.00",
+            "color": "rgba(65, 177, 238, 1)",
+            "pointId": "068304b6-8ec9-42fd-b44f-74a0d1849300"
+          },
+          {
+            "y": 50.0,
+            "z": "61",
+            "pct": "81.97%",
+            "name": "Abacus Programming Corporation",
+            "label": "50.00",
+            "color": "rgba(199, 211, 227, 1)",
+            "pointId": "ca395dae-8f2f-40ed-b80e-2e34c8cc5ec2"
+          },
+          {
+            "y": 50.0,
+            "z": "63",
+            "pct": "79.37%",
+            "name": "Adobe",
+            "label": "50.00",
+            "color": "rgba(238, 107, 104, 1)",
+            "pointId": "d165a6cc-67a8-40e6-963a-10b7165c776e"
+          },
+          {
+            "y": 50.0,
+            "z": "50",
+            "pct": "100.00%",
+            "name": "Bachman Information System Inc.",
+            "label": "50.00",
+            "color": "rgba(254, 227, 156, 1)",
+            "pointId": "5d9c8370-37ba-453a-a02a-8507a3de92c1"
+          },
+          {
+            "y": 50.0,
+            "z": "50",
+            "pct": "100.00%",
+            "name": "Balfour Maclaine International",
+            "label": "50.00",
+            "color": "rgba(167, 93, 97, 1)",
+            "pointId": "96ba1528-67d8-458b-b4b1-b881c6c6fb45"
+          },
+          {
+            "y": 150.0,
+            "z": "357",
+            "pct": "42.02%",
+            "name": "Ball & Socket Mfg Co",
+            "label": "150.00",
+            "color": "rgba(192, 146, 235, 1)",
+            "pointId": "4f7c3aa6-8152-4a9d-aa94-5f16f50b506e"
+          },
+          {
+            "y": 100.0,
+            "z": "190",
+            "pct": "52.63%",
+            "name": "Box Inc",
+            "label": "100.00",
+            "color": "rgba(255, 211, 179, 1)",
+            "pointId": "ea398ac3-d885-471b-82a0-12e3aff7fc69"
+          },
+          {
+            "y": 100.0,
+            "z": "430",
+            "pct": "23.26%",
+            "name": "DE Shaw",
+            "label": "100.00",
+            "color": "rgba(93, 162, 177, 1)",
+            "pointId": "e74f4ed7-43b8-44e4-b60a-6ae6f855579c"
+          },
+          {
+            "y": 100.0,
+            "z": "100",
+            "pct": "100.00%",
+            "name": "GoldManSachs",
+            "label": "100.00",
+            "color": "rgba(209, 110, 123, 1)",
+            "pointId": "478b6493-1e77-44a0-92cf-72fd2a95ef08"
+          },
+          {
+            "y": 150.0,
+            "z": "222",
+            "pct": "67.57%",
+            "name": "Oracle",
+            "label": "150.00",
+            "color": "rgba(192, 235, 242, 1)",
+            "pointId": "5c4d3410-0c7f-44e8-a769-66d839da076f"
+          },
+          {
+            "y": 150.0,
+            "z": "150",
+            "pct": "100.00%",
+            "name": "Skype",
+            "label": "150.00",
+            "color": "rgba(253, 199, 47, 1)",
+            "pointId": "efe44002-bf41-4c12-91e5-fc849ac82fc9"
+          }
+        ],
+        "name": "SUM of Adv6Number",
+        "type": "pie",
+        "showInLegend": true
+      },
+      {
+        "innerSize": "60%",
+        "dataLabels": {
+          "format": "{point.label} ({point.percentage:.0f}%)"
+        },
+        "data": [
+          {
+            "y": 50.0,
+            "z": "100",
+            "pct": "50%",
+            "name": "AAR Corp Hardware Abscoa Division",
+            "label": "INR 50",
+            "color": "rgba(65, 177, 238, 1)",
+            "pointId": "068304b6-8ec9-42fd-b44f-74a0d1849300"
+          },
+          {
+            "y": 11.0,
+            "z": "61",
+            "pct": "18%",
+            "name": "Abacus Programming Corporation",
+            "label": "INR 11",
+            "color": "rgba(199, 211, 227, 1)",
+            "pointId": "ca395dae-8f2f-40ed-b80e-2e34c8cc5ec2"
+          },
+          {
+            "y": 13.0,
+            "z": "63",
+            "pct": "21%",
+            "name": "Adobe",
+            "label": "INR 13",
+            "color": "rgba(238, 107, 104, 1)",
+            "pointId": "d165a6cc-67a8-40e6-963a-10b7165c776e"
+          },
+          {
+            "y": 0.0,
+            "z": "50",
+            "pct": "0%",
+            "name": "Bachman Information System Inc.",
+            "label": "INR 0",
+            "color": "rgba(254, 227, 156, 1)",
+            "pointId": "5d9c8370-37ba-453a-a02a-8507a3de92c1",
+            "dataLabels": {
+              "enabled": false
+            }
+          },
+          {
+            "y": 0.0,
+            "z": "50",
+            "pct": "0%",
+            "name": "Balfour Maclaine International",
+            "label": "INR 0",
+            "color": "rgba(167, 93, 97, 1)",
+            "pointId": "96ba1528-67d8-458b-b4b1-b881c6c6fb45",
+            "dataLabels": {
+              "enabled": false
+            }
+          },
+          {
+            "y": 207.0,
+            "z": "357",
+            "pct": "58%",
+            "name": "Ball & Socket Mfg Co",
+            "label": "INR -207",
+            "color": "rgba(192, 146, 235, 1)",
+            "pointId": "4f7c3aa6-8152-4a9d-aa94-5f16f50b506e"
+          },
+          {
+            "y": 90.0,
+            "z": "190",
+            "pct": "47%",
+            "name": "Box Inc",
+            "label": "INR 90",
+            "color": "rgba(255, 211, 179, 1)",
+            "pointId": "ea398ac3-d885-471b-82a0-12e3aff7fc69"
+          },
+          {
+            "y": 330.0,
+            "z": "430",
+            "pct": "77%",
+            "name": "DE Shaw",
+            "label": "INR 330",
+            "color": "rgba(93, 162, 177, 1)",
+            "pointId": "e74f4ed7-43b8-44e4-b60a-6ae6f855579c"
+          },
+          {
+            "y": 0.0,
+            "z": "100",
+            "pct": "0%",
+            "name": "GoldManSachs",
+            "label": "INR 0",
+            "color": "rgba(209, 110, 123, 1)",
+            "pointId": "478b6493-1e77-44a0-92cf-72fd2a95ef08",
+            "dataLabels": {
+              "enabled": false
+            }
+          },
+          {
+            "y": 72.0,
+            "z": "222",
+            "pct": "32%",
+            "name": "Oracle",
+            "label": "INR -72",
+            "color": "rgba(192, 235, 242, 1)",
+            "pointId": "5c4d3410-0c7f-44e8-a769-66d839da076f"
+          },
+          {
+            "y": 0.0,
+            "z": "150",
+            "pct": "0%",
+            "name": "Skype",
+            "label": "INR 0",
+            "color": "rgba(253, 199, 47, 1)",
+            "pointId": "efe44002-bf41-4c12-91e5-fc849ac82fc9",
+            "dataLabels": {
+              "enabled": false
+            }
+          }
+        ],
+        "name": "SUM of Adv7Currency",
+        "type": "pie",
+        "showInLegend": false
+      }
+    ]
+  }]
+}
+

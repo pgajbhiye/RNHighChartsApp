@@ -1,0 +1,60 @@
+{
+  plotOptions: {
+    series: {
+      animation: {
+        duration: 3000
+      }
+    },
+    packedbubble: {
+      size: 100,
+      "dataLabels": false
+    }
+  },
+  title: {
+    text: ''
+  },
+  "series" : [{
+    "name" : 'Front-end development Languages',
+    "data": [
+      {
+      "name": 'Angular',
+      "value" : 90
+    },{
+      "name": 'Javascript',
+      "value" : 20
+    },{
+      "name": 'React',
+      "value" : 60
+    },{
+      "name": 'CSS',
+      "value" : 30
+    },{
+      "name": 'Vue',
+      "value" : 50
+    }
+    ],
+    "type": "packedbubble"
+  },{
+    "name" : 'Back-end development Languages',
+    "data": [
+      {
+        "name": 'Python',
+        "value" : 120
+      },{
+        "name": 'PHP',
+        "value" : 130
+      },{
+        "name": 'JAVA',
+        "value" : 60
+      },{
+        "name": 'Ruby',
+        "value" : 55
+      },{
+        "name": 'Golang',
+        "value" : 80
+      }
+    ],
+    "type": "packedbubble"
+  }
+  ]
+}

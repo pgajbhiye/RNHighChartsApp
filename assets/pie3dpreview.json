@@ -1,0 +1,94 @@
+{
+  chart: {
+    type: 'pie',
+    options3d: {
+      enabled: true,
+      alpha: 45
+    }
+  },
+  title: {
+    text: 'Brands'
+  },
+  plotOptions: {
+    pie: {
+      innerSize: 40,
+      depth: 20
+    }
+  },
+  "series": [{
+    "name": 'Brands',
+    "data": [{
+      "y": 50.0,
+      "z": "50",
+      "pct": "100.00%",
+      "name": "Lenovo",
+      "label": "50.00"
+    },
+      {
+        "y": 50.0,
+        "z": "50",
+        "pct": "100.00%",
+        "name": "HP",
+        "label": "50.00"
+      },
+      {
+        "y": 50.0,
+        "z": "50",
+        "pct": "100.00%",
+        "name": "Apple",
+        "label": "50.00"
+      },
+      {
+        "y": 50.0,
+        "z": "50",
+        "pct": "100.00%",
+        "name": "Microsoft",
+        "label": "50.00"
+      },
+      {
+        "y": 50.0,
+        "z": "50",
+        "pct": "100.00%",
+        "name": "Asus",
+        "label": "50.00"
+      },
+      {
+        "y": 180.0,
+        "z": "150",
+        "pct": "100.00%",
+        "name": "Sony",
+        "label": "150.00"
+      },
+      {
+        "y": 100.0,
+        "z": "100",
+        "pct": "100.00%",
+        "name": "Epson"
+      },
+      {
+        "y": 100.0,
+        "z": "100",
+        "pct": "100.00%",
+        "name": "LG",
+        "label": "100.00"
+      },
+      {
+        "y": 80.0,
+        "z": "100",
+        "pct": "100.00%",
+        "name": "Dell",
+        "label": "100.00"
+      },
+      {
+        "y": 150.0,
+        "z": "150",
+        "pct": "100.00%",
+        "name": "HCL",
+        "label": "150.00",
+      }
+    ],
+    "name": "Computer Brands",
+    "type": "pie"
+  }]
+
+}

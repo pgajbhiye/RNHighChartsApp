@@ -1,0 +1,71 @@
+{
+  chart: {
+    type: 'column',
+    options3d: {
+      enabled: true,
+      alpha: 30,
+      beta: 0,
+      depth: 10,
+      viewDistance: 100
+    }
+  },
+  title: {
+    text: 'Distribution'
+  },
+  "series": [{
+    "name": 'Distribution',
+    "data": [{
+      "y": 150.0,
+      "z": "50",
+      "name": "Coca-Cola",
+      "label": "50.00"
+    },
+      {
+        "y": 50.0,
+        "z": "105",
+        "name": "Pepsi",
+        "label": "50.00"
+      },
+      {
+        "y": 50.0,
+        "z": "50",
+        "pct": "100.00%",
+        "name": "Nestle",
+        "label": "50.00"
+      },
+      {
+        "y": 80.0,
+        "z": "50",
+        "name": "Starbucks",
+        "label": "50.00"
+      },
+      {
+        "y": 50.0,
+        "z": "50",
+        "name": "Unilever Grp",
+        "label": "50.00"
+      },
+      {
+        "y": 180.0,
+        "z": "150",
+        "pct": "100.00%",
+        "name": "Heineken",
+        "label": "150.00"
+      },
+      {
+        "y": 100.0,
+        "z": "100",
+        "pct": "100.00%",
+        "name": "Epson"
+      },
+      {
+        "y": 100.0,
+        "z": "100",
+        "name": " Danone",
+        "label": "100.00"
+      }
+    ],
+    "type": "column"
+  }]
+
+}
