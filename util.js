@@ -1,4 +1,3 @@
-import pieJson from "./assets/piepreview.json";
 import threed from "./assets/pie3dpreview.json";
 import donutJson from "./assets/donutpreview.json";
 import twoPieJson from "./assets/twopiepreview.json";
@@ -15,41 +14,36 @@ import org from "./assets/orgpreview.json";
 import timeline from "./assets/timelinepreview.json";
 
 
-export const getJsonData =(type) => {
-    console.log("pallavi type ",type)
-    let jsonData = [];
-    if(type === 'PIE') {
-        jsonData = threed
-    }if(type === 'DONUT') {
-        jsonData = donutJson
-    } if(type === 'MULTI_PIE') {
-        jsonData = twoPieJson
-    } if(type === 'LINE') {
-        jsonData = lineJson
-    } if(type === 'PACKED_BUBBLE') {
-        jsonData = bubbleJson
-    } if(type === 'HEAT_MAP') {
-        jsonData = heatJson
-    } if(type === 'BAR') {
-        jsonData = barJson
-    } if(type === 'AREA') {
-        jsonData = areaJson
-    } if(type === 'COLUMN') {
-        jsonData = colJson
+export const getJsonData = (type) => {
+    switch (type) {
+        case 'PIE' :
+            return threed;
+        case 'DONUT' :
+            return donutJson;
+        case 'MULTI_PIE':
+            return twoPieJson;
+        case 'LINE':
+            return lineJson;
+        case 'PACKED_BUBBLE':
+            return bubbleJson;
+        case 'HEAT_MAP':
+            return heatJson;
+        case 'BAR':
+            return barJson;
+        case 'AREA':
+            return areaJson;
+        case 'COLUMN':
+            return colJson;
+        case 'HONEYCOMB':
+            return tileMap;
+        case 'FUNNEL':
+            return funnel;
+        case 'ORGANIZATION':
+            return org;
+        case 'TIMELINE':
+            return timeline;
+        case '3D-COLUMN':
+            return col3dJson
     }
-    if(type === 'HONEYCOMB') {
-        jsonData = tileMap
-    }
-    if(type === 'FUNNEL') {
-        jsonData = funnel
-    }
-    if(type === 'ORGANIZATION') {
-        jsonData = org
-    }
-    if(type === 'TIMELINE') {
-        jsonData = timeline
-    }  if(type === '3D-COLUMN') {
-        jsonData = col3dJson
-    }
-    return jsonData;
+    return {};
 }
